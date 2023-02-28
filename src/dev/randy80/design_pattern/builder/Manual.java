@@ -1,6 +1,6 @@
-package dev.randy80.design_pattern.factory_method;
+package dev.randy80.design_pattern.builder;
 
-public class Car {
+public class Manual {
     private int seats;
     private String engine;
     private boolean tripComputer;
@@ -23,6 +23,6 @@ public class Car {
     }
 
     public String toString() {
-        return "Car has " + seats + " seats, " + engine + " engine, " + tripComputer + " trip computer, " + gpsNavigator + " gps navigator";
+        return "Manual has " + seats + " seats, " + engine + " engine, " + tripComputer + " trip computer, " + gpsNavigator + " gps navigator";
     }
 }

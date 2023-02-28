@@ -1,4 +1,4 @@
-package dev.randy80.design_pattern.factory_method;
+package dev.randy80.design_pattern.builder;
 
 public class CarManualBuilder implements Builder {
     private Manual manuel;
